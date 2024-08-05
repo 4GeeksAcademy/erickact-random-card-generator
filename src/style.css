@@ -1,1 +1,21 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+  font-family: "Lora", serif;
+  font-style: normal;
+  background-color: #0e7e12;
+}
+
+#card {
+  width: 20rem;
+  height: 28rem;
+}
+
+#letter {
+  font-size: 120px;
+}
+
+#symbol1,
+#symbol2 {
+  font-size: 70px;
+}
