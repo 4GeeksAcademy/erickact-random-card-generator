@@ -71,7 +71,7 @@ document.getElementById("form").addEventListener("submit", e => {
   const minHeigth = 300;
 
   if (width < minWidth || height < minHeigth) {
-    warningNode.textContent = `El valor mínimo a colocar en el ancho es 200px y en el alto 300px.`;
+    warningNode.textContent = `The minimum value that the width can have is ${minWidth}px and the height is ${minHeigth}px.`;
   } else {
     warningNode.textContent = "";
     cardNode.style.width = `${width}px`;
